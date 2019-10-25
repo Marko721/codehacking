@@ -1,0 +1,29 @@
+[33mcommit 69d367abae619cdf578ca44e1d053c46f6f690f8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Marko721 <popmark1002@gmail.com>
+Date:   Fri Oct 25 13:22:52 2019 +0200
+
+    users page working withouth photos
+
+[33mcommit b83ba62056b50b80bf0607d0b1101467727a44a7[m
+Author: Marko721 <popmark1002@gmail.com>
+Date:   Thu Oct 24 18:16:46 2019 +0200
+
+    create user page
+
+[33mcommit b21ea5d5cdcc68d3af15e90459af8dedcea1ed07[m
+Author: Marko721 <popmark1002@gmail.com>
+Date:   Thu Oct 24 16:38:32 2019 +0200
+
+    admin master page setup
+
+[33mcommit e6b65590e446d38fb6b1c6450b0dd7e65de3ff28[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Marko721 <popmark1002@gmail.com>
+Date:   Wed Oct 23 20:57:00 2019 +0200
+
+    pravljenje roles tabele
+
+[33mcommit 3ebab0bd2e723fff1eb3652700a302586961e236[m
+Author: Marko721 <popmark1002@gmail.com>
+Date:   Wed Oct 23 20:16:01 2019 +0200
+
+    my first commit - admin views created
