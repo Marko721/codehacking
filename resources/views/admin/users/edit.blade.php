@@ -57,10 +57,31 @@
             </div>
 
             <div class="form-group">
-                {!! Form::submit('Update User', ['class'=>'btn btn-primary']) !!}
+                {!! Form::submit('Update User', ['class'=>'btn btn-primary col-sm-6']) !!}
             </div>
 
             {!! Form::close() !!}
+
+
+
+
+            {!! Form::open(['method'=>'DELETE', 'action' => ['AdminUsersController@destroy', $user->id]]) !!}
+
+                <div class="form-group">
+                    {!! Form::submit('Delete user', ['class'=>'btn btn-danger col-sm-6']) !!}
+                </div>
+
+            {!! Form::close() !!}
+
+
+            
+            {{-- <form action="{{route('admin.users.destroy', ['id'=>$user->id])}}" enctype="multipart/form-data" method="POST" >
+                <div class="form-group">
+                    <input type="submit" value="Delete User" class="btn btn-danger" name="delete">
+                    {!! method_field('delete') !!}
+                    {!! csrf_field() !!}
+                </div>
+            </form> --}}
 
         </div>
 
