@@ -4,6 +4,16 @@
 
     <h1>Categories</h1>
 
+    @if (Session::has('deleted category'))
+
+        <p class="bg-success">{{session('deleted category')}}</p>
+
+    @elseif (Session::has('updated category'))
+
+        <p class="bg-success">{{session('updated category')}}</p>
+        
+    @endif
+
     <div class="row">
 
         {!! Form::open(['method'=>'POST', 'action'=>'AdminCategoriesController@store']) !!}
@@ -40,7 +50,7 @@
 
                     <tr>
                         <td>{{$category->id}}</td>
-                        <td>{{$category->name}}</td>
+                        <td><a href="{{route('admin.categories.edit', $category->id)}}">{{$category->name}}</a></td>
                         <td>{{$category->created_at ? $category->created_at->diffForHumans() : 'no date'}}</td>
                     </tr>
 
