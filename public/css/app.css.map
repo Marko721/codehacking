@@ -1,1 +1,1 @@
-{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAEA;EAEI,iBAGH,EAAC","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n#admin-page {\n\n    padding-top: 0px\n\n\n}"]}
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAEA;EAEI,iBAAiB,EAGpB;;AAED;EAEI,kBAAkB,EAErB","file":"app.css","sourcesContent":["// @import \"node_modules/bootstrap-sass/assets/stylesheets/bootstrap\";\n\n#admin-page {\n\n    padding-top: 0px;\n\n\n}\n\n#nested-comment {\n\n    margin-top: 100px;\n\n}"]}
